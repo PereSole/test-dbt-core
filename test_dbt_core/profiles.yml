@@ -15,6 +15,7 @@ test_dbt_core:
       schema: TEST_SCHEMA_DBT
       threads: 1
       client_session_keep_alive: False
+      query_tag: pere_test
 
       # optional
       connect_retries: 0 # default 0
