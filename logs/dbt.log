@@ -1,0 +1,44 @@
+[0m18:24:52.572246 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011D406C9570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011D42DD0C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011D42DD0A00>]}
+
+
+============================== 18:24:52.587874 | 51420532-6e30-443b-9876-4860f6654d45 ==============================
+[0m18:24:52.587874 [info ] [MainThread]: Running with dbt=1.7.13
+[0m18:24:52.587874 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\pere.sole\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m18:24:52.587874 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/pere.sole/.dbt')}
+[0m18:24:52.587874 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m18:25:07.367954 [debug] [MainThread]: Starter project path: c:\Users\pere.sole\Documents\PROJECTES\Normon\dbt-project\.venv\lib\site-packages\dbt\include\starter_project
+[0m18:25:07.526812 [info ] [MainThread]: 
+Your new dbt project "test_dbt_core" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:25:07.526812 [info ] [MainThread]: Setting up your profile.
+[0m18:27:52.459245 [info ] [MainThread]: Profile test_dbt_core written to C:\Users\pere.sole\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:27:52.461124 [debug] [MainThread]: Command `dbt init` succeeded at 18:27:52.461124 after 180.00 seconds
+[0m18:27:52.461723 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011D406C9570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011D3D812B60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011D42DD19F0>]}
+[0m18:27:52.462391 [debug] [MainThread]: Flushing usage events
+[0m18:29:39.562084 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DEA2CBB80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DECC56380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DECC56110>]}
+
+
+============================== 18:29:39.588048 | 434a52eb-fab6-448b-83f8-ae26032d5fab ==============================
+[0m18:29:39.588048 [info ] [MainThread]: Running with dbt=1.7.13
+[0m18:29:39.593937 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\pere.sole\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt build', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m18:29:39.597578 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\pere.sole\Documents\PROJECTES\Normon\dbt-project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:29:39.605122 [debug] [MainThread]: Command `dbt build` failed at 18:29:39.604502 after 0.61 seconds
+[0m18:29:39.607545 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DEA2CBB80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DECC56350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DECC563B0>]}
+[0m18:29:39.609449 [debug] [MainThread]: Flushing usage events
